@@ -5,7 +5,7 @@ const identifer = document.getElementById("identifer");
 const message = document.getElementById("message");
 const btnEnviar = document.getElementById("btnEnviar");
 
-Pusher.logToConsole = true;
+// Pusher.logToConsole = true;
 
 var pusher = new Pusher('48ca0bd8a8874507b058', {
     cluster: 'sa1'
